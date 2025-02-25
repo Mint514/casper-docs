@@ -77,7 +77,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      defaultMode: 'dark',
+      // Adding the colorMode configuration
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -99,6 +104,7 @@ const config = {
             label: 'Invite Casper',
             position: 'right',
           },
+          
         ],
       },
       footer: {
