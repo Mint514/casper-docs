@@ -25,7 +25,7 @@ const config = {
   organizationName: 'Mint514', // Usually your GitHub org/user name.
   projectName: 'casper-docs', // Usually your repo name.
   trailingSlash: false,
-
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
